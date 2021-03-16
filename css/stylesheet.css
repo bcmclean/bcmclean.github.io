@@ -6,9 +6,9 @@ body {
 html { scroll-behavior: smooth; } 
 
 .announcement-bar {
-	position: relative;
+    position: relative;
     width: 100%;
-    background-color: #dcd9fb;;
+    background-color: #dcd9fb;
     height: 70%;
     padding-top: 0px;
     margin-top: 0px;
