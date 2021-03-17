@@ -389,3 +389,21 @@ img#hiking-photos {
   }
 
 
+  @media screen and (max-width: 600px) {
+      .site-nav {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .site-nav :hover {
+        background-color: #ebe9fd;
+        border-bottom: none;
+    }
+
+    .container {
+        padding: 0px;
+        margin: 0px;
+    }
+
+  }
