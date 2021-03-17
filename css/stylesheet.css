@@ -425,4 +425,21 @@ img#hiking-photos {
     flex-wrap: wrap !important;
   }
 
+  #dates, #location {
+      float: left !important;
+  }
+
+  #description {
+      padding-bottom: 5%;
+  }
+
+  #therapist-jen-img {
+      padding-left: 50% !important;
+      padding-bottom: 10%;
+  }
+
+
+
+
+
 }
