@@ -39,6 +39,7 @@ img.personal-profile__avatar
     -o-object-fit: cover;
     object-fit: cover;
     margin-top: 0px;
+    margin-left: 5px;
     position: relative;
     top: 20px;
 }
@@ -361,6 +362,7 @@ p {
 .stats {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     margin: 1%;
 
