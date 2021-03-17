@@ -419,4 +419,10 @@ img#hiking-photos {
       margin: 0px !important;
   }
 
+  .buttonWrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+
 }
