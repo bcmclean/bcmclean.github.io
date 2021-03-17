@@ -6,13 +6,13 @@ body {
 html { scroll-behavior: smooth; } 
 
 .announcement-bar {
-    position: relative;
+	position: relative;
     width: 100%;
     background-color: #dcd9fb;
     height: 70%;
     padding-top: 0px;
     margin-top: 0px;
-    box-shadow: 0 0 15px rgb(96 96 96 / 24%);
+    /*box-shadow: 0 0 15px rgb(96 96 96 / 24%);*/
     margin-bottom: 6%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@ img.personal-profile__avatar
     box-shadow: 0 0 27px rgb(96 96 96 / 34%);
     width: 20%;
     float: left;
-    height: 275px;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
     margin-top: 0px;
@@ -51,7 +51,7 @@ img.personal-profile__avatar
   
 .site-nav a {
     float: left;
-    color: #224e84;
+    color:black;
     font-weight: 600;
     text-align: center;
     padding: 14px 16px;
@@ -61,15 +61,15 @@ img.personal-profile__avatar
 }
   
 .site-nav :hover {
-    border-bottom: 3px solid #fd7e14;
+    border-bottom: 3px solid black;
 }
 
 .name, .details {
     font-family: 'Work Sans', sans-serif;
-    color: #307fe2;
+    color: black;
     float: left;
     text-shadow: 5% 5% 5% #acacac;
-    font-weight: lighter;
+    font-weight: bold;
     padding-bottom: 0px;
     margin-top: 2%;
     margin-bottom: 0%;
@@ -91,18 +91,18 @@ img.personal-profile__avatar
     padding-top: 2%;
 }
 
-.about-me-details {
+.paragraph {
     font-family: 'Roboto', sans-serif;
     overflow: overlay;
-    color: #224e84;
+    color: black;
 }
 
-.about-me-title, .hobbies-title, .resume-title, .projects-title {
+.about-me-title, .hobbies-title, .resume-title, .projects-title, .cover-letter-title {
 
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 150%;
-    color: #307fe2;
+    color: black;
 }
 
 .resume-title {
@@ -130,9 +130,10 @@ th, td {
 
 section {
     padding-left: 5%;
+    padding-right: 5%;
 }
 
-.resume-details-1, .resume-details-2 {
+.resume-details {
     display: inline-block;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -142,7 +143,7 @@ section {
 #position {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    border-bottom: 3px solid #fd7e14;
+    border-bottom: 3px solid #dcd9fb;
     font-size: 18px;
     margin: 0px;
     padding: 0px;
@@ -192,7 +193,7 @@ section {
   }
 
 .fa-linkedin, .fa-github {
-    background: #ff9e1c;
+    background: black;
     color: white;
  }
 
@@ -238,16 +239,16 @@ section {
     letter-spacing: 1px;
     border: none;
     padding: 10px;
-    color: #224e84;
+    color: black;
     font-size: 18px;
     cursor: pointer;
     transition: 0.5s;
     font-family: 'Roboto', sans-serif;
-    background-color: #eaf2f5;
+    background-color: #dcd9fb;
   }
   
   button:hover {
-    background-color: #d5e3ff;
+    background-color: #dcd9fb;
   }
   
   button.active {
@@ -280,6 +281,7 @@ section {
     height: 100%;
     object-fit: contain;
   }
+
   
 
   #app-description {
@@ -287,7 +289,7 @@ section {
     text-align: left;
     font-size: 100%;
     margin: 2%;
-    color: #224e84;
+    color: black;
     padding: 0.5%;
 }
 
@@ -307,7 +309,7 @@ section {
     width: 190px;
     padding: 2%;
     margin: 2%;
-    color: #224e84;
+    color: black;
     text-align: center;
 }
 
@@ -322,12 +324,12 @@ section {
 }
 
 h4 {
-    color: #224e84;
+    color: black;
 }
 
 p {
     line-height: 1.8;
-    color: #224e84;
+    color: black;
 }
 
 .video-buttons-container {
@@ -342,12 +344,48 @@ p {
 }
 
 .video-demos {
-  background-color: #307fe2;
+  background-color: black;
   color: white;
+  font-weight: bolder;
   padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 1%;
+
+}
+
+.stats-items {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.hiking-photos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: inherit;
+    float: left;
+    object-fit: contain;
+    padding-bottom: 10%;
+}
+
+img#hiking-photos {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+
+    overflow-x: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.24);
+    margin: 1%;
+  }
 
 
