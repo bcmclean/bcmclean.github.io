@@ -208,8 +208,8 @@ section {
 .sm-buttons {
     padding-right: 2.2%;
     display: block;
-    width: inherit;
-    height: inherit;
+    width: 2%;
+    height: 2%;
 }
 
 /* Tabs Section */
