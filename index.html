@@ -18,21 +18,17 @@
 
     <div class="sections">
 
-        <section class="about-me"></section>
+        <section class="about-me" id="section1"></section>
 
-        <section class="experience" id="section1">
-            <h4 class="resume-title">Resume</h4>
-            <div id="resume"></div>
-            <script src="js/index.js"></script>
-        </section>
+        <section class="resume" id="section2"></section>
 
-        <section class="cover-letter" id="section2"></section>
+        <section class="cover-letter" id="section3"></section>
 
-        <section class="projects" id="section3"></section>
+        <section class="projects" id="section4"></section>
 
-        <section class="hobbies" id="section4"></section>
+        <section class="hobbies" id="section5"></section>
 
-        <section class="contact" id="section5"></section>
+        <section class="contact" id="section6"></section>
 
     </div>
 
@@ -64,5 +60,15 @@
     $(function(){
       $(".projects").load("components/projects.html"); 
     });
+
+    $(function(){
+      $(".resume").load("components/resume.html"); 
+    });
+
+    $(function(){
+      $(".cover-letter").load("components/cover-letter.html"); 
+    });
+
+   
 
 </script>
