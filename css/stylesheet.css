@@ -206,7 +206,8 @@ section {
 }
 
 .sm-buttons {
-    padding-right: 3.4%;
+    padding-right: 20px;
+    margin: 1px;
     display: block;
     width: 2%;
     height: 2%;
