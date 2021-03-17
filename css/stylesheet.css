@@ -45,8 +45,29 @@ img.personal-profile__avatar
 
 
 .site-nav {
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
     padding-top: 2%;
+  }
+
+  @media screen and (max-width: 600px) {
+      .site-nav {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .site-nav :hover {
+        background-color: #ebe9fd;
+        border-bottom: none;
+    }
+
+    .container {
+        padding: 0px;
+        margin: 0px;
+    }
+
   }
   
 .site-nav a {
@@ -386,24 +407,4 @@ img#hiking-photos {
     overflow-x: hidden;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.24);
     margin: 1%;
-  }
-
-
-  @media screen and (max-width: 600px) {
-      .site-nav {
-        flex-direction: column;
-        padding: 0px;
-        margin: 0px;
-      }
-
-      .site-nav :hover {
-        background-color: #ebe9fd;
-        border-bottom: none;
-    }
-
-    .container {
-        padding: 0px;
-        margin: 0px;
-    }
-
   }
